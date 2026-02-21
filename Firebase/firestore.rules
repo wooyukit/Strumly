@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Songs: publicly readable; only playCount may be updated (by Cloud Functions).
+    match /songs/{songId} {
+      allow read: if true;
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['playCount']);
+      allow create, delete: if false;
+    }
+
+    // Artists: publicly readable; no client writes.
+    match /artists/{artistId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

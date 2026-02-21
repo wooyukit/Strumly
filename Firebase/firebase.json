@@ -1,0 +1,46 @@
+{
+  "functions": {
+    "source": "functions",
+    "predeploy": [
+      "npm --prefix \"$RESOURCE_DIR\" run build"
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/searchSongs",
+        "function": "searchSongs"
+      },
+      {
+        "source": "/api/getPopularSongs",
+        "function": "getPopularSongs"
+      },
+      {
+        "source": "/api/getSong/**",
+        "function": "getSong"
+      },
+      {
+        "source": "/api/getPopularArtists",
+        "function": "getPopularArtists"
+      },
+      {
+        "source": "/api/getArtistSongs/**",
+        "function": "getArtistSongs"
+      },
+      {
+        "source": "/api/recordPlay/**",
+        "function": "recordPlay"
+      }
+    ]
+  }
+}

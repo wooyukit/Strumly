@@ -1,0 +1,256 @@
+[
+  {
+    "id": "c",
+    "name": "C",
+    "fullName": "C Major",
+    "category": "major",
+    "notes": ["C", "E", "G"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": 3, "finger": 3},
+          {"fret": 2, "finger": 2},
+          {"fret": 0, "finger": null},
+          {"fret": 1, "finger": 1},
+          {"fret": 0, "finger": null}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "d",
+    "name": "D",
+    "fullName": "D Major",
+    "category": "major",
+    "notes": ["D", "F#", "A"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": -1, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 1},
+          {"fret": 3, "finger": 3},
+          {"fret": 2, "finger": 2}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "e",
+    "name": "E",
+    "fullName": "E Major",
+    "category": "major",
+    "notes": ["E", "G#", "B"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 2},
+          {"fret": 2, "finger": 3},
+          {"fret": 1, "finger": 1},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "f",
+    "name": "F",
+    "fullName": "F Major",
+    "category": "major",
+    "notes": ["F", "A", "C"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": 1, "finger": 1},
+          {"fret": 3, "finger": 3},
+          {"fret": 3, "finger": 4},
+          {"fret": 2, "finger": 2},
+          {"fret": 1, "finger": 1},
+          {"fret": 1, "finger": 1}
+        ],
+        "barres": [
+          {"fromString": 1, "toString": 6, "fret": 1}
+        ],
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "g",
+    "name": "G",
+    "fullName": "G Major",
+    "category": "major",
+    "notes": ["G", "B", "D"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": 3, "finger": 2},
+          {"fret": 2, "finger": 1},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 3, "finger": 3}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "a",
+    "name": "A",
+    "fullName": "A Major",
+    "category": "major",
+    "notes": ["A", "C#", "E"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 1},
+          {"fret": 2, "finger": 2},
+          {"fret": 2, "finger": 3},
+          {"fret": 0, "finger": null}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "am",
+    "name": "Am",
+    "fullName": "A Minor",
+    "category": "minor",
+    "notes": ["A", "C", "E"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 2},
+          {"fret": 2, "finger": 3},
+          {"fret": 1, "finger": 1},
+          {"fret": 0, "finger": null}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "dm",
+    "name": "Dm",
+    "fullName": "D Minor",
+    "category": "minor",
+    "notes": ["D", "F", "A"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": -1, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 2},
+          {"fret": 3, "finger": 3},
+          {"fret": 1, "finger": 1}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "em",
+    "name": "Em",
+    "fullName": "E Minor",
+    "category": "minor",
+    "notes": ["E", "G", "B"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 2},
+          {"fret": 2, "finger": 3},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "b7",
+    "name": "B7",
+    "fullName": "B Dominant 7th",
+    "category": "seventh",
+    "notes": ["B", "D#", "F#", "A"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": 2, "finger": 1},
+          {"fret": 1, "finger": 2},
+          {"fret": 2, "finger": 3},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 4}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "g7",
+    "name": "G7",
+    "fullName": "G Dominant 7th",
+    "category": "seventh",
+    "notes": ["G", "B", "D", "F"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": 3, "finger": 3},
+          {"fret": 2, "finger": 2},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 1, "finger": 1}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "d7",
+    "name": "D7",
+    "fullName": "D Dominant 7th",
+    "category": "seventh",
+    "notes": ["D", "F#", "A", "C"],
+    "voicings": [
+      {
+        "strings": [
+          {"fret": -1, "finger": null},
+          {"fret": -1, "finger": null},
+          {"fret": 0, "finger": null},
+          {"fret": 2, "finger": 2},
+          {"fret": 1, "finger": 1},
+          {"fret": 2, "finger": 3}
+        ],
+        "barres": null,
+        "baseFret": 1
+      }
+    ]
+  }
+]
